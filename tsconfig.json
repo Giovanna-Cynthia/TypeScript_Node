@@ -1,0 +1,15 @@
+{
+  //Opcoes de compilacao do codigo 
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "CommonJS",
+    "skipLibCheck": true,
+
+    "strict": true,
+    "esModuleInterop": true,
+    
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src//**/*.ts"],
+  "exclude": ["node_modules"]
+}
